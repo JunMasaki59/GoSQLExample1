@@ -1,0 +1,14 @@
+リンク：https://www.wakuwakubank.com/posts/869-go-database-sql/#index_id3
+
+使用手順：
+　docker-compose up -d
+
+  mysql -utest_user -h 127.0.0.1 --port 13306 -p
+
+    source MakeTable.sql
+
+    source MakeBigData.sql
+
+    exit;
+
+  go run ~.go
